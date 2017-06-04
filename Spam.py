@@ -34,8 +34,8 @@ def dataFrameFromDirectory(path, classification):
 
 data = DataFrame({'message': [], 'class': []})
 
-data = data.append(dataFrameFromDirectory('C:\\Users\\Max\\Desktop\\Data science folder\\DataScience-Python3\\emails\\spam', 'spam'))
-data = data.append(dataFrameFromDirectory('C:\\Users\\Max\\Desktop\\Data science folder\\DataScience-Python3\\emails\\ham', 'ham'))
+data = data.append(dataFrameFromDirectory('put in spam folder location here', 'spam'))
+data = data.append(dataFrameFromDirectory('put in ham folder location here', 'ham'))
 
 from __future__ import division
 from sklearn.cross_validation import train_test_split
